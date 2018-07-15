@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am Chidi!
+Hey there, I am under construction!
