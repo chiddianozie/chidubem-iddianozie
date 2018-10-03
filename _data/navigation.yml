@@ -15,8 +15,8 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
     
-   - title: "CV"
-     url: /cv/
+  - title: "CV"
+    url: https://notable1.github.io/files/updated_chidubem_cv.pdf/
     
-   - title: "Contact"
-     url: /contact/
+  - title: "Contact"
+    url: /contact/
