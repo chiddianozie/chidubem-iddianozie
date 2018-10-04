@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter "sirchidi_"
 facebook:
   username               :
   app_id                 :
@@ -92,7 +92,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "notable1"
   google_plus      :
   keybase          :
   instagram        :
@@ -104,7 +104,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : *twitter
   vine             :
   weibo            :
   xing             :
