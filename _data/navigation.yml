@@ -1,7 +1,6 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+  
 
 #   - title: "Talks"
 #     url: /talks/    
@@ -12,11 +11,14 @@ main:
   # - title: "Portfolio"
   #   url: /portfolio/
         
-  - title: "Blog"
+  - title: "Blog Posts"
     url: /year-archive/
     
-  - title: "CV"
+  - title: "Resume"
     url: https://notable1.github.io/chidubem-iddianozie/files/updated_chidubem_cv.pdf
+
+  - title: "Publications"
+    url: /publications/  
     
   - title: "Contact"
     url: /contact/
