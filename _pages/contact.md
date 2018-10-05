@@ -5,7 +5,7 @@ excerpt: "Contact me"
 author_profile: true
 ---
 Contact information is below, including email and social web services.  
-* E-mail: iceanozie [at] gmail.com
+* E-mail: mail [at] chidubemiddianozie.com
 * Twitter: [sirchidi](http://twitter.com/sirchidi_)
 <!-- * Academia.edu: [RStuartGeiger](http://georgetown.academia.edu/RStuartGeiger) -->
 <!-- * Flickr: [staeiou](http://www.flickr.com/photos/Staeiou) -->
