@@ -16,6 +16,7 @@ In this post, i will describe how to collect Google Street view images of any lo
 
 OSMNx is a library for reading and manipulating OpenStreetMap street networks developed for Python by Geoff Boeing. You can read more about it and how to install it [here](https://geoffboeing.com/2016/11/osmnx-python-street-networks/). It is pretty straightforward. 
   > As at the time of writing, i tried to install on another computer and ran into some dependency issues. Hence, i recommend `conda install -c conda-forge osmnx` for the installation. Also, ensure that your conda channel settings prioritizes conda-forge using `conda config --add channels conda-forge`, you can also go ahead to delete the `defaults` channel in the `.condarc` file. 
+
 Assuming that you have successfully installed the package, you can go ahead to download the street network for the location you are interested in. We will be using that of `Dublin City, Ireland` as follows:
 
 ```python
