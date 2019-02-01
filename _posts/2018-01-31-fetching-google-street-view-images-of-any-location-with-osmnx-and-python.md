@@ -3,9 +3,11 @@ title: 'Fetching Google Street View Images of any location with OSMNx and Python
 date: 2019-01-31
 permalink: /posts/2018/01/Getting-Street-View-Images-with-OSMNx/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - Google Street View
+  - OSMNx
+  - Cities
+  - Python
+  - Spatial
 ---
 
 ## Introduction
@@ -16,7 +18,7 @@ In this post, i will describe how to collect Google Street view images of any lo
 
 OSMNx is a library for reading and manipulating OpenStreetMap street networks developed for Python by Geoff Boeing. You can read more about it and how to install it [here](https://geoffboeing.com/2016/11/osmnx-python-street-networks/). It is pretty straightforward.
 
- 
+
   > As at the time of writing, i tried to install on another computer and ran into some dependency issues. Hence, i recommend `conda install -c conda-forge osmnx` for the installation. Also, ensure that your conda channel settings prioritizes conda-forge using `conda config --add channels conda-forge`, you can also go ahead to delete the `defaults` channel in the `.condarc` file. 
 
 
@@ -35,28 +37,33 @@ We read only the drivable roads for dublin (see the OSMNx documentation for othe
 
 ## Google Street View
 
-Unless you are reading this from before early 20th century, chances are that you have used Google maps (GM) at least once. But a feature of GM that you may have not had a need to use is Google Street View (GSV). This is a feature of GM that holds a panaramic views of streets around the world. The current coverage of GSV varies around the world, see [this link](https://www.google.com/streetview/understand/). We will access GSV via the API, but first you need a `key`, you can get that [here](https://developers.google.com/maps/documentation/streetview/get-api-key). Also ensure that you enable GSV api access under your `dashboard > Enable APIS AND SERVICES`. As long as you are not exceeding 25k requests a day, the api key should be enough. Otherwise, you will need the key with a digital signature [ref](https://developers.google.com/maps/documentation/streetview/usage-and-billing).
+Unless you are reading this from before early 20th century, chances are that you have used Google maps (GM) at least once. But a feature of GM that you may have not had a need to use is Google Street View (GSV). This is a feature of GM that holds a panaramic views of streets around the world. The current coverage of GSV varies around the world, see [this link](https://www.google.com/streetview/understand/). We will access GSV via the API, but first you need a `key`, you can get that [here](https://developers.google.com/maps/documentation/streetview/get-api-key). Also ensure that you enable GSV api access under  `dashboard > Enable APIS AND SERVICES`. As long as you are not exceeding 25k requests a day, the api key should be enough for access. Otherwise, you will need the key with a digital signature [ref](https://developers.google.com/maps/documentation/streetview/usage-and-billing).
 
-Moving forward, there are a few concepts to note about GSV: field of view, orientation, heading, image size, pitch. You can read about them [here](https://developers.google.com/maps/documentation/javascript/streetview). I will summarise below, if you already know what these concepts mean, skip to `Implemenattion`:
-<!-- - Field of View:
-- Orientation:
-- Image Size:
-- Pitch:
-###  -->
+Since GSV keeps a panoramic view of the streets, it is important to bear some concepts in mind before making your queries. These concepts include field of view, orientation, heading, image size, pitch. You can read about them [here](https://developers.google.com/maps/documentation/javascript/streetview). Moving forward, I will assume you know what they mean.
 
+> If this is your first time accessing GSV and just want to dive in. You can alternate the values for each parameters in the execution. They are pretty intuitive.
+
+To access the API with python, you need to install the library from this [link](https://pypi.org/project/google-streetview/). 
 
 
+## Implementation
 
-<!-- ## Implementation
+With all the packages and tools collected, we move forward to the actual implementation. First we import the necessary libraries:
 
 ```python
-import streetview
 import google_streetview.api
-import google_streetview.helpers
 import osmnx as ox
 import geopandas as gpd
 import urllib, os
 import urllib.parse
+
+```
+
+We will use geopandas to read the street network written to disk above. 
+
+> As OSMNx is dependent on geopandas, you should have it installed already. If for some reason you don't. install it with [conda](https://anaconda.org/conda-forge/geopandas) or [pip](https://pypi.org/project/geopandas/)
+
+```python
 
 def getStreetCentroid(row):
     obj = row['geometry']
@@ -82,4 +89,4 @@ try:
 	print('Finished downloading images for North dublin 1')
 except:
 	print('there was an error')
-``` -->
+```
