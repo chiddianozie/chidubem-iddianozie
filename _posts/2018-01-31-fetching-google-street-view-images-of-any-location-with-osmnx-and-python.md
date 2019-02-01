@@ -39,7 +39,7 @@ Unless you are reading this from before early 20th century, chances are that you
 
 Since GSV keeps a panoramic view of the streets, it is important to bear some concepts in mind before making your queries. These concepts are field of view (fov), heading, image size, pitch. You can read about them [here](https://developers.google.com/maps/documentation/javascript/streetview). 
 
-> If this is your first time accessing GSV and just want to dive in. You can play around with the values for each parameter. They are pretty intuitive.
+> If you just want to dive in. You can play around with the values for each parameter. They are pretty intuitive.
 
 To access the API with python, you need to install the library from this [link](https://pypi.org/project/google-streetview/). 
 
