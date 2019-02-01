@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second year PhD student in the school of computer science at the University College Dublin. Research interests in Machine Intelligence, Data Science,  Networks, Urban Dynamics.
+Second year PhD student in Computer Science at the University College Dublin. Research interests in Machine Intelligence, Data Science,  Networks, Urban Dynamics.
 
 
 # Recent News
