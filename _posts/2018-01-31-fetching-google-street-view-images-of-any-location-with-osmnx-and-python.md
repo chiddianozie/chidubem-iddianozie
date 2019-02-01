@@ -37,7 +37,7 @@ We read only the drivable roads for dublin (see the OSMNx documentation for othe
 
 Unless you are reading this from before early 20th century, chances are that you have used Google maps (GM) at least once. But a feature of GM that you may have not had a need to use is Google Street View (GSV). This is a feature of GM that holds a panaramic views of streets around the world. The current coverage of GSV varies around the world, see [this link](https://www.google.com/streetview/understand/). We will access GSV via the API, but first you need a `key`, you can get that [here](https://developers.google.com/maps/documentation/streetview/get-api-key). Also ensure that you enable GSV api access under  `dashboard > Enable APIS AND SERVICES`. As long as you are not exceeding 25k requests a day, the api key should be enough for access. Otherwise, you will need the key with a digital signature [ref](https://developers.google.com/maps/documentation/streetview/usage-and-billing).
 
-Since GSV keeps a panoramic view of the streets, it is important to bear some concepts in mind before making your queries. These concepts include field of view, orientation, heading, image size, pitch. You can read about them [here](https://developers.google.com/maps/documentation/javascript/streetview). Moving forward, I will assume you know what they mean.
+Since GSV keeps a panoramic view of the streets, it is important to bear some concepts in mind before making your queries. These concepts include field of view (fov), heading, image size, pitch. You can read about them [here](https://developers.google.com/maps/documentation/javascript/streetview). Moving forward, I will assume you know what they mean.
 
 > If this is your first time accessing GSV and just want to dive in. You can alternate the values for each parameters in the execution. They are pretty intuitive.
 
@@ -61,32 +61,46 @@ We will use geopandas to read the street network written to disk above.
 
 > As OSMNx is dependent on geopandas, you should have it installed already. If for some reason you don't. install it with [conda](https://anaconda.org/conda-forge/geopandas) or [pip](https://pypi.org/project/geopandas/).
 
-
-
 ```python
 
+dublin = gpd.read_file('data/dublin_network/edges/edges.shp')
+
+```
+Next, we take the centroids of each street edge components and write to a column `streetCentroid` in the `geodataframe: dublin`. This will be used as a reference point for all the streets. 
+
+```python
 def getStreetCentroid(row):
     obj = row['geometry']
     centroid = obj.centroid
     return centroid
 
-def GetStreet(Add,SaveLoc,orientation):
-    base = 'https://maps.googleapis.com/maps/api/streetview?size=640x640&fov=120&pitch=-0.76&heading='+orientation+'&location='
-    MyUrl = base + urllib.parse.quote(Add) + key #added url encoding
-    fi = Add +'_facing='+orientation+'.jpg'
-    urllib.request.urlretrieve(MyUrl, os.path.join(SaveLoc,fi))
-    
+dublin['streetCentroid']  = dublin.apply(getStreetCentroid,axis=1)
 
+```
+Now, we do the actual image collection. We consider just three headings `0,125 and 250 degrees` here. Notice the values for size, pitch, fov. You can change as you wish in `skeleton`. In the actual implementation, 3 images are collected for each street corresponding to the headings specified. 
+
+```python
+orientation = ['0','125','250']
+
+def GetStreet(Add,SaveLoc,orientation):
+    skeleton = 'https://maps.googleapis.com/maps/api/streetview?size=640x640&fov=120&pitch=-0.76&heading='+orientation+'&location='
+    ThisUrl = skeleton + urllib.parse.quote(Add) + "&key="+"YOUR-API_KEY"  
+    filePath = Add +'_facing='+orientation+'.jpg'
+    urllib.request.urlretrieve(ThisUrl, os.path.join(SaveLoc,filePath))
 
 try:
-	for index, row in northDublin_1.iterrows(): 
-	    points = (northDublin_1.loc[index,'streetCentroid'])
+	for index, row in dublin.iterrows(): 
+	    points = (dublin.loc[index,'streetCentroid'])
 	    pointList = list(points.coords)
 	    locationCoordinate = str(pointList[0][1])+','+str(pointList[0][0])
 	    for j in orientation:
-	    	# change the value in SaveLoc to the folder you want to store the pictures as required
+	    	# change the value in SaveLoc to the folder you want to save the images
 	        GetStreet(Add=locationCoordinate,SaveLoc = 'northDublin_1',orientation = j)
-	print('Finished downloading images for North dublin 1')
+	print('Finished downloading images for dublin')
 except:
-	print('there was an error')
+	print('error')
 ```
+
+## Conclusion
+
+I hope this helps someone, if you notice any errors or difficulties you can shoot me an email. And i will respond at my earliest convenience.  
