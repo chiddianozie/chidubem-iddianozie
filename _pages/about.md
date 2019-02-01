@@ -12,6 +12,6 @@ I am a second year PhD student in the school of computer science at the Universi
 
 
 # Recent News
-	- September 2018: Presenting at the Doctoral Forum, ECML-PKDD, Dublin.
-	- December 2018: Attending the NeurIPS Conference in Montreal, Canada.
-	- April 2019: Presenting our paper at SAC 2019 in Limassol, Cyprus.
+- September 2018: Presenting at the Doctoral Forum, ECML-PKDD, Dublin.
+- December 2018: Attending the NeurIPS Conference in Montreal, Canada.
+- April 2019: Presenting our paper at SAC 2019 in Limassol, Cyprus.
