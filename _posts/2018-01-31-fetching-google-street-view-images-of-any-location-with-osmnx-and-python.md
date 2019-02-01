@@ -10,8 +10,6 @@ tags:
   - Spatial
 ---
 
-## Introduction
-
 In this post, i will describe how to collect Google Street view images of any location with OSMNx. For the tutorial, you will need OSMNx and access to Google Street View. If you have a working installation of OSMNx and have accessed the Google Street View api before, skip to `Implementation` or to the GitHub [repo](https://github.com/Notable1) for the code.
 
 ## OSMNx
@@ -61,7 +59,9 @@ import urllib.parse
 
 We will use geopandas to read the street network written to disk above. 
 
-> As OSMNx is dependent on geopandas, you should have it installed already. If for some reason you don't. install it with [conda](https://anaconda.org/conda-forge/geopandas) or [pip](https://pypi.org/project/geopandas/)
+> As OSMNx is dependent on geopandas, you should have it installed already. If for some reason you don't. install it with [conda](https://anaconda.org/conda-forge/geopandas) or [pip](https://pypi.org/project/geopandas/).
+
+
 
 ```python
 
