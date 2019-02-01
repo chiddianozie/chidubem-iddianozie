@@ -50,8 +50,6 @@ With all the packages and tools collected, we move forward to the actual impleme
 
 ```python
 import google_streetview.api
-import osmnx as ox
-import geopandas as gpd
 import urllib, os
 import urllib.parse
 
@@ -95,7 +93,7 @@ try:
 	    locationCoordinate = str(pointList[0][1])+','+str(pointList[0][0])
 	    for j in orientation:
 	    	# change the value in SaveLoc to the folder you want to save the images
-	        GetStreet(Add=locationCoordinate,SaveLoc = 'northDublin_1',orientation = j)
+	        GetStreet(Add=locationCoordinate,SaveLoc = 'dublinImages',orientation = j)
 	print('Finished downloading images for dublin')
 except:
 	print('error')
