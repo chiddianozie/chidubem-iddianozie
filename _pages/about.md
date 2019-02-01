@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Hey there, I am under construction!
+I am a second year PhD student in the school of computer science at UCD. Interested in Data Science, Computational Intelligence, Smart Cities.
