@@ -1,12 +1,12 @@
 ---
-title: 'Fetching Google Street View Images of any location with OSMNx and Python'
+title: 'Fetching Google Street View Images of any location with Python and OSMNx'
 date: 2019-01-31
-permalink: /posts/2018/01/Getting-Street-View-Images-with-OSMNx/
+permalink: /posts/2018/01/Getting-Street-View-Images-with-Python-and-OSMNx/
 tags:
+  - Python
   - Google Street View
   - OSMNx
   - Cities
-  - Python
   - Spatial
 ---
  
