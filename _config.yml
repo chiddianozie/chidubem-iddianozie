@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Chidubem Iddianozie"
 title_separator          : "-"
 name                     : &name "Chidubem Iddianozie"
-description              : &description "personal description"
+description              : &description "data science stuff python google machine learning osmnx google street view"
 url                      : https://notable1.github.io/chidubem-iddianozie # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "notable1/chidubem-iddianozie"
@@ -19,9 +19,9 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
 comments:
-  provider               : true # (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "disqus" #true  (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            :
+    shortname            : "chidubemiddianozie.disqus.com"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -48,10 +48,10 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification :
+google_site_verification : "_0aT156gkypaDMCg3Nd6E4gAraa7RkClsWIZyLYOAwo"
 bing_site_verification   :
 alexa_site_verification  :
-yandex_site_verification :
+yandex_site_verification : "7281b0eff08e673c"
 
 # Social Sharing
 twitter:

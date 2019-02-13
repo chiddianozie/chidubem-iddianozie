@@ -101,4 +101,4 @@ except:
 
 ## Conclusion
 
-I hope this helps someone, if you notice any errors or difficulties you can shoot me an email. And i will respond at my earliest convenience.  
+I hope this helps someone, if you notice any errors or difficulties please leave a comment and I will respond to you as soon as i can.
