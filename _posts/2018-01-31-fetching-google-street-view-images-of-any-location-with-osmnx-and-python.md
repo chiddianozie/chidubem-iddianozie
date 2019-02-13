@@ -10,26 +10,7 @@ tags:
   - Spatial
 comments: true
 ---
-{% if page.comments %}
-<div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-
-var disqus_config = 'chidubemiddianozie.disqus.com';
-
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://chidubemiddianozie.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-{% endif %} 
+ 
 
 In this post, i will describe how to collect Google Street view images of any location with OSMNx. For the tutorial, you will need OSMNx and access to Google Street View. If you have a working installation of OSMNx and have accessed the Google Street View api before, skip to `Implementation` or to the GitHub [repo](https://github.com/Notable1/FetchingStreetViewImagesWithOSMNx/) for the code.
 
@@ -122,7 +103,5 @@ except:
 
 ## Conclusion
 
-I hope this helps someone, if you notice any errors or difficulties please leave a comment.
+I hope this helps someone, if you notice any errors or difficulties please send me an email.
 
-{% include disqus.html %}
-{% include comments.html %}
