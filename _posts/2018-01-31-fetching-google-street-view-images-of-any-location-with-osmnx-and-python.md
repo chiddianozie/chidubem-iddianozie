@@ -11,6 +11,7 @@ tags:
 comments: true
 ---
 {% include disqus.html %}
+{% include comments.html %}
 
 In this post, i will describe how to collect Google Street view images of any location with OSMNx. For the tutorial, you will need OSMNx and access to Google Street View. If you have a working installation of OSMNx and have accessed the Google Street View api before, skip to `Implementation` or to the GitHub [repo](https://github.com/Notable1/FetchingStreetViewImagesWithOSMNx/) for the code.
 
