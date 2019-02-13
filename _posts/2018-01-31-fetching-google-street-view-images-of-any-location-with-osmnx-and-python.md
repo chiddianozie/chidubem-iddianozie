@@ -8,7 +8,6 @@ tags:
   - Cities
   - Python
   - Spatial
-comments: true
 ---
  
 
