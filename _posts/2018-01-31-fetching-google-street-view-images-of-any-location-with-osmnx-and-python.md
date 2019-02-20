@@ -76,7 +76,7 @@ def getStreetCentroid(row):
 dublin['streetCentroid']  = dublin.apply(getStreetCentroid,axis=1)
 
 ```
-Now, we do the actual image collection. We consider just three headings `0,125 and 250 degrees` here. Notice the values for size, pitch, fov. You can change as you wish in `skeleton`. In the actual implementation, 3 images are collected for each street corresponding to the headings specified. 
+Now, the actual image collection. We consider just three headings `0,125 and 250 degrees` here. Notice the values for size, pitch, fov. You can change as you wish in `skeleton`. In the actual implementation, 3 images are collected for each street corresponding to the headings specified. 
 
 ```python
 orientation = ['0','125','250']
