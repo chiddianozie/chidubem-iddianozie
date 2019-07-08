@@ -15,3 +15,4 @@ Second year PhD student in Computer Science at the University College Dublin. Re
 - September 2018: Presenting at the Doctoral Forum, ECML-PKDD, Dublin.
 - December 2018: Attending the NeurIPS Conference in Montreal, Canada.
 - April 2019: Presenting our paper at SAC 2019 in Limassol, Cyprus.
+- Summer 2019: Interning at IBM Research Dublin, Ireland.
