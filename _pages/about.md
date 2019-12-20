@@ -12,7 +12,7 @@ Second year PhD student in Computer Science at the University College Dublin. Re
 
 
 # Recent News
-- December 2019: Poster Presentation at NeurIPS for paper titled "Robust representations for heterogeneous spatial graphs", Vancouver, Canada.
+- December 2019: Poster Presentation at NeurIPS for paper titled "Robust representations for transfer learning on heterogeneous spatial graphs", Vancouver, Canada.
 - November 2019: Giving a talk titled "Confirmation Biases and Online Echo chambers: Why technologists should not stop talking about them" at GitHub Education Day, San Francisco, USA.
 - September 2019: ECML-PKDD ML Summer School, Wurzburg, Germany.
 - August 2019: Participating in the Alan Turing Institute Network Data study group, Bristol, UK.
