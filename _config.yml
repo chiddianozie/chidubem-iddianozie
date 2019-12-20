@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Chidubem Iddianozie"
 title_separator          : "-"
 name                     : &name "Chidubem Iddianozie"
-description              : &description "data science stuff python google machine learning osmnx google street view"
+description              : &description "data science stuff python google machine learning graphs osmnx google street view"
 url                      : https://sirchidi.github.io/chidubem-iddianozie # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sirchidi/chidubem-iddianozie"
@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Chidubem Iddianozie"
   avatar           : "montreal.png"
-  bio              : "#DataScience #SpatialStuff #AI #ML #Python"
+  bio              : "#DataScience #AI #ML #Python #Graphs"
   location         : "Dublin, Ireland"
   employer         :
   googlescholar    : #"http://yourfullgooglescholarurl.com"
