@@ -102,4 +102,4 @@ except:
 
 ## Conclusion
 
-I hope this helps someone, if you notice any errors or difficulties please send me an email.
+If this helps you or have some other queries, please send an email or leave a comment below.
