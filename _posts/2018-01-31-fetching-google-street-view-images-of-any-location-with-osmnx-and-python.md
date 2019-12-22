@@ -103,7 +103,3 @@ except:
 ## Conclusion
 
 I hope this helps someone, if you notice any errors or difficulties please send me an email.
-
-<!-- // some contents -->
-  <!-- {% include disqus.html %} -->
-  <!-- // some contents -->
