@@ -12,9 +12,12 @@ tags:
 
 TL;DR: We will learn how to construct multiple non-overlapping buffers around `linetstring` objects using `PostGIS` in `PostgreSQL`.
 
-|From single linestring | Linestring enclosed with buffers |
-|:---:|:---:|
-| [![single street](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/single_street.png?token=AD5IB4F2Q2IH7DYTBACZGTC6BUNZQ)](http://videoblocks.com)  | [ ![all buffers enclosing street](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/all_buffers.png?token=AD5IB4DEFEDTIBQNH7HZPMC6BUN7Q)](http://audioblocks.com) |
+|Single linestring|
+|:---:|
+|![single street](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/single_street.png?token=AD5IB4F2Q2IH7DYTBACZGTC6BUNZQ)|:---:|
+| Linestring enclosed with buffers|
+|:---:|
+| ![all buffers enclosing street](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/all_buffers.png?token=AD5IB4DEFEDTIBQNH7HZPMC6BUN7Q) |
 
 
 
@@ -50,7 +53,7 @@ to kill any old processes that may be interfering and then retry the above comma
 sirchidi:~$ whoami
 ```
 
-For this post, we will be using a very small `.csv` file containing the coordinates of five streets, and can be downloaded from  [here](https://chidubemiddianozie.com/files/sample_data.csv).
+For this post, we will be using a very small `.csv` file containing the coordinates of six streets, and can be downloaded from  [here](https://chidubemiddianozie.com/files/sample_data.csv).
 
 Okay, all set, lets begin.
 
