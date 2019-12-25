@@ -141,18 +141,27 @@ UPDATE streetSample
                 4326);
 ~~~~
 
-We show a visualization of the buffers:
-
-**insert image showing the visualization of the buffers for the streets. 
-
 Notice how we transform between two crs's, that is because the 4326 does not support the metres unit we need to define the buffer radius. Thus, we temporarily transform the linestring coordinates to a metre-crs for the buffer creation in each sql statement and transform back to the working crs.
 Another thing to bear in mind is the option for the buffer construction `endcap=round join=round`. This option can also be changed by referring to the postgis documentation here.
 
-Now, our buffers are created and we have to write back to file.
+Now, we show a visualization of the buffers:
+
+![single street](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/single_street.png?token=AD5IB4F2Q2IH7DYTBACZGTC6BUNZQ)
+
+![first buffer](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/first_buffer.png?token=AD5IB4ESG4P6FKW5OVK4WFC6BUQ6W)
+
+![second buffer](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/second_buffer.png?token=AD5IB4BOFRXF5WMHUOXOIMK6BUQ7Y)
+
+![third buffer](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/third_buffer.png?token=AD5IB4ASAFZGTQS35QQJK3S6BURAY)
+
+![final product](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/all_buffers.png?token=AD5IB4DEFEDTIBQNH7HZPMC6BUN7Q)
+
+
+Our buffers are created and we have to write back to file.
 
 
 ### Writing back to file
-Now, we write the updated table to `.csv` using the following command:
+We write the updated table to `.csv` using the following command:
 ~~~~sql
 COPY
     (
