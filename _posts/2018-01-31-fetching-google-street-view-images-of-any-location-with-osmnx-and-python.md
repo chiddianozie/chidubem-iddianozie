@@ -34,7 +34,7 @@ ox.save_graph_shapefile(G_dublin, filename='dublin_network') #save to disk
 ```
 We read only the drivable roads for dublin (see the OSMNx documentation for other options) and save it to disk for use later on.
 
-![Testing image in markdown](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/web_profile.png?token=AD5IB4BSZPG5RKSDRWHLQNS6BTQEI)
+![Testing image in markdown](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/web_profile.png)
 
 ## Google Street View
 
