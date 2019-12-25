@@ -49,15 +49,15 @@ For this post, we will be using a very small `.csv` file containing the coordina
 Okay, all set, lets begin.
 
 ## Methods
-We can categorise the methods to complete teh construction into three sub-sectiond
-* Reading
+We can categorise the methods to complete teh construction into three sub-sections
+* Reading from file
     * We have to ensure that the files are read correctly into a postgresql table and persisted correctly. Every operation will be done on this table.
 * Buffer Construction
     * This is where we reason about to perform the construction of the multiple buffers.
-* Writing
+* Writing to file
     * Finally, we write the constructed buffers from the postgresql table back to a file.
 
-### Reading the file
+### Reading from file
 To read the file and persist to a table in the `postgres` database, we can switch to the postgresql terminal as follows:
 
 ```console
@@ -142,7 +142,7 @@ Another thing to bear in mind is the option for the buffer construction `endcap=
 Now, our buffers are created and we have to write back to file.
 
 
-### Writing back to file
+### Writing to file
 Now, we write the updated table to `.csv` using the following command:
 ~~~~sql
 COPY
