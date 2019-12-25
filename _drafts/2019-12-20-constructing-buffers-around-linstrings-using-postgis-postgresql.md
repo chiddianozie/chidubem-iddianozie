@@ -161,4 +161,4 @@ TO '/path/to/file/streetSample_with_buffers.csv' DELIMITER ',' CSV HEADER;
 
 ## Final words
 
-I hope this helps someone, the code for this post is available here. If you have any queries, please leave a comment below or open an issue on in the code repo. Thanks!
+I hope this helps someone, the code for this post is available here. If you have any queries, please leave a comment below or open an issue in the code repo. Thanks!
