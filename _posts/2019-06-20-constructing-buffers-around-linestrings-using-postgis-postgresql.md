@@ -11,8 +11,9 @@ tags:
 ---
 
 ## TL;DR
-
 We will learn how to construct multiple non-overlapping buffers around `linetstring` objects using `PostGIS` in `PostgreSQL`.
+
+![single street](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/single_street.png?token=AD5IB4F2Q2IH7DYTBACZGTC6BUNZQ) ![all buffers enclosing street](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/all_buffers.png?token=AD5IB4DEFEDTIBQNH7HZPMC6BUN7Q)
 
 ## Requirements
 Ensure that you have Postgresql installed on your computer, you can also install the interface `pgadmin` if you will want a GUI interface to manipulate the database. You can check here and here on installation instructions for both softwares. 
