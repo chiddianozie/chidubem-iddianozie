@@ -34,6 +34,8 @@ ox.save_graph_shapefile(G_dublin, filename='dublin_network') #save to disk
 ```
 We read only the drivable roads for dublin (see the OSMNx documentation for other options) and save it to disk for use later on.
 
+![Testing image in markdown](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/web_profile.png?token=AD5IB4BSZPG5RKSDRWHLQNS6BTQEI)
+
 ## Google Street View
 
 Google street view is a feature of GM that holds a panoramic views of streets around the world. The current coverage of GSV varies around the world (see [here](https://www.google.com/streetview/understand/)). We will access GSV via the API, but first you need a `key`, you can get that [here](https://developers.google.com/maps/documentation/streetview/get-api-key). Also ensure that you enable GSV api access under  `dashboard > Enable APIS AND SERVICES`. As long as you are not exceeding 25k requests a day, the api key should be enough for access. Otherwise, you will need the key with a digital signature ([ref](https://developers.google.com/maps/documentation/streetview/usage-and-billing)).
