@@ -158,7 +158,7 @@ Now, we show a visualization of the buffers:
 <img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/second_buffer.png?token=AD5IB4BOFRXF5WMHUOXOIMK6BUQ7Y" width="300" height="300" hspace="20"/><img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/third_buffer.png?token=AD5IB4ASAFZGTQS35QQJK3S6BURAY" width="300" height="300" hspace="20"/>
 
 And, all buffers superimposed on the linestring. 
-<img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/all_buffers.png?token=AD5IB4DEFEDTIBQNH7HZPMC6BUN7Q" width="400" height="400" hspace="100"/>
+<img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/all_buffers.png?token=AD5IB4DEFEDTIBQNH7HZPMC6BUN7Q" width="400" height="400" hspace="150"/>
 
 <!-- ![single street](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/single_street.png?token=AD5IB4F2Q2IH7DYTBACZGTC6BUNZQ)
 
@@ -174,7 +174,7 @@ Our buffers are created and we have to write back to file.
 
 
 ### Writing back to file
-We write the updated table to `.csv` using the following command:
+We write the updated table to `.csv` using:
 ~~~~sql
 COPY
     (
@@ -192,4 +192,4 @@ TO '/path/to/file/streetSample_with_buffers.csv' DELIMITER ',' CSV HEADER;
 
 ## Final words
 
-I hope this helps someone, the code for this post is available here. If you have any queries, please leave a comment below or open an issue on in the code repo. Thanks!
+I hope this helps someone, the `SQL` code for this post is available [here](https://github.com/sirchidi/concentricBufferConstruction). If you have any queries, please leave a comment below or open an issue on in the [code repo](https://github.com/sirchidi/concentricBufferConstruction). Thanks!
