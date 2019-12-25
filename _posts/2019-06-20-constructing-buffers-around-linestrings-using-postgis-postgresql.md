@@ -157,7 +157,8 @@ Now, we show a visualization of the buffers:
 
 <img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/second_buffer.png?token=AD5IB4BOFRXF5WMHUOXOIMK6BUQ7Y" width="300" height="300" hspace="20"/><img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/third_buffer.png?token=AD5IB4ASAFZGTQS35QQJK3S6BURAY" width="300" height="300" hspace="20"/>
 
-<img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/all_buffers.png?token=AD5IB4DEFEDTIBQNH7HZPMC6BUN7Q" width="400" height="400" hspace="50"/>
+And, all buffers superimposed on the linestring. 
+<img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/all_buffers.png?token=AD5IB4DEFEDTIBQNH7HZPMC6BUN7Q" width="400" height="400" hspace="100"/>
 
 <!-- ![single street](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/single_street.png?token=AD5IB4F2Q2IH7DYTBACZGTC6BUNZQ)
 
