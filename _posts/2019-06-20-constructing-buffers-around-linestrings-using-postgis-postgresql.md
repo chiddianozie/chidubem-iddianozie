@@ -14,10 +14,13 @@ TL;DR: We will learn how to construct multiple non-overlapping buffers around `l
 
 <!-- ![single street](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/single_street.png?token=AD5IB4F2Q2IH7DYTBACZGTC6BUNZQ) -->
 <img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/single_street.png?token=AD5IB4F2Q2IH7DYTBACZGTC6BUNZQ" width="300" height="300" hspace="20"/> <img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/all_buffers.png?token=AD5IB4DEFEDTIBQNH7HZPMC6BUN7Q" width="300" height="300" hspace="20"/>
-<figure>
+
+<div style="width:300; font-size:80%; text-align:center;"><img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/single_street.png?token=AD5IB4F2Q2IH7DYTBACZGTC6BUNZQ" alt="alternate text" width="300" height="300" style="padding-bottom:0.5em;" />Linestring</div>
+
+<!-- <figure>
     <img src='image.jpg' alt='missing' />
     <figcaption>Caption goes here</figcaption>
-</figure>
+</figure> -->
 <!-- 
 ![all buffers enclosing street](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/all_buffers.png?token=AD5IB4DEFEDTIBQNH7HZPMC6BUN7Q)  -->
 
