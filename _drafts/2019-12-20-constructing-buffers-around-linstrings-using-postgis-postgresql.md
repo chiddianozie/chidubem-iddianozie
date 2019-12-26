@@ -13,7 +13,7 @@ tags:
 We will learn how to construct multiple non-overlapping buffers around `linetstring` objects using `PostGIS` in `PostgreSQL`.
 
 ## Requirements
-Ensure that you have Postgresql installed on your computer, you can also install the interface `pgadmin` if you will want a GUI interface to manipulate the database. You can check here and here on installation instructions for both softwares. 
+Ensure that you have Postgresql installed on your computer, we will use the terminal for this post but you can also install the `pgadmin` interface  if you prefer a GUI. You can see installation instructions for postgresql [here](http://www.postgresqltutorial.com/install-postgresql/) and download `pgadmin` [here](https://www.pgadmin.org/download/). 
 
 If installed correctly, you can initialize and then start the postgres database as follows:
 
