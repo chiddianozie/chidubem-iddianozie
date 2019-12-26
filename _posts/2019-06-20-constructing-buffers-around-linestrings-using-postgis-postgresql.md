@@ -63,7 +63,7 @@ For this post, we will be using a very small `.csv` file containing the coordina
 Okay, all set, lets begin.
 
 ## Methods
-We can categorise the methods to complete teh construction into three sub-sectiond
+We can split this section into three sub-sections
 * Reading from file
     * We have to ensure that the files are read correctly into a postgresql table and persisted correctly. Every operation will be done on this table.
 * Buffer Construction
