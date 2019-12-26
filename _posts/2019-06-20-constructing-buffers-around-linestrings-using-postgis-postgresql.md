@@ -27,7 +27,7 @@ TL;DR: We will learn how to construct multiple non-overlapping buffers around `l
 
 
 ## Requirements
-Ensure that you have Postgresql installed on your computer, you can also install the interface `pgadmin` if you will want a GUI interface to manipulate the database. You can check here and here on installation instructions for both softwares. 
+Ensure that you have Postgresql installed on your computer, we will use the terminal for this post but you can also install the `pgadmin` interface  if you prefer a GUI. You can see installation instructions for postgresql [here](http://www.postgresqltutorial.com/install-postgresql/) and download `pgadmin` [here](https://www.pgadmin.org/download/). 
 
 If installed correctly, you can initialize and then start the postgres database as follows:
 
@@ -64,14 +64,14 @@ Okay, all set, lets begin.
 
 ## Methods
 We can categorise the methods to complete teh construction into three sub-sectiond
-* Reading
+* Reading from file
     * We have to ensure that the files are read correctly into a postgresql table and persisted correctly. Every operation will be done on this table.
 * Buffer Construction
     * This is where we reason about to perform the construction of the multiple buffers.
-* Writing
+* Writing to file
     * Finally, we write the constructed buffers from the postgresql table back to a file.
 
-### Reading the file
+### Reading from file
 To read the file and persist to a table in the `postgres` database, we can switch to the postgresql terminal as follows:
 
 ```console
@@ -173,7 +173,7 @@ And, all buffers superimposed on the linestring.
 Our buffers are created and we have to write back to file.
 
 
-### Writing back to file
+### Writing to file
 We write the updated table to `.csv` using:
 ~~~~sql
 COPY
