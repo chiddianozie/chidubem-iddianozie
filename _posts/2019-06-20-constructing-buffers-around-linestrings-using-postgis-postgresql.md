@@ -64,7 +64,6 @@ Okay, all set, lets begin.
 
 ## Methods
 We can split this section into three sub-sections
-Python: Create Blank New Jupyter Notebook
 * Reading from file
     * We have to ensure that the files are read correctly into a postgresql table and persisted correctly. Every operation will be done on this table.
 * Buffer Construction
