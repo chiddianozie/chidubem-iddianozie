@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Second year PhD student in Computer Science at the University College Dublin. Research interests include Semantic Inference, Transfer Learning and ML on Graphs.
+Third year PhD student in Computer Science at the University College Dublin. Research interests include Semantic Inference, Transfer Learning and ML on Graphs.
 
 
 # Recent News
