@@ -152,7 +152,7 @@ Another thing to bear in mind is the option for the buffer construction `endcap=
 Now, we show a visualization of the buffers:
 
 
-<img src="https://chidubemiddianozie.com/images/single_street.png" width="300" height="300" hspace="20"/><img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/first_buffer.png?token=AD5IB4B3JOZPCOQ7JPJLU3S6GRAFU" width="300" height="300" hspace="20"/>
+<img src="https://chidubemiddianozie.com/images/single_street.png" width="300" height="300" hspace="20"/><img src="https://chidubemiddianozie.com/images/first_buffer.pngs" width="300" height="300" hspace="20"/>
 
 
 <img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/second_buffer.png?token=AD5IB4B6KLERDWYIJWS4BUK6GRAH4" width="300" height="300" hspace="20"/><img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/third_buffer.png?token=AD5IB4EONVA2GF7MQ3JHCBC6GRAJM" width="300" height="300" hspace="20"/>
