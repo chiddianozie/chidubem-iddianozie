@@ -10,7 +10,7 @@ tags:
   - PostgreSQL
 ---
 
-TL;DR: We will learn how to construct multiple non-overlapping buffers around `linetstring` objects using `PostGIS` in `PostgreSQL`.
+TL;DR: We will learn how to construct multiple non-overlapping buffers around `linestring` objects using `PostGIS` in `PostgreSQL`.
 
 <!-- ![single street](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/single_street.png?token=AD5IB4F2Q2IH7DYTBACZGTC6BUNZQ) -->
 <img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/single_street.png?token=AD5IB4EA2HXB5IDBED2D3RK6GQ3VA" width="300" height="300" hspace="20"/><img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/all_buffers.png?token=AD5IB4CROBVU6X56PH74H326GRABY" width="300" height="300" hspace="20"/>
@@ -147,12 +147,12 @@ UPDATE streetSample
 ~~~~
 
 Notice how we transform between two crs's, that is because the 4326 does not support the metres unit we need to define the buffer radius. Thus, we temporarily transform the linestring coordinates to a metre-crs for the buffer creation in each sql statement and transform back to the working crs.
-Another thing to bear in mind is the option for the buffer construction `endcap=round join=round`. This option can also be changed by referring to the postgis documentation [here](https://postgis.net/docs/ST_Buffer.html).
+Another thing to bear in mind is the option for the buffer construction `endcap=round join=round`. This option can also be changed, please refer to the postgis documentation [here](https://postgis.net/docs/ST_Buffer.html).
 
 Now, we show a visualization of the buffers:
 
 
-<img src="images/single_street.png" width="300" height="300" hspace="20"/><img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/first_buffer.png?token=AD5IB4B3JOZPCOQ7JPJLU3S6GRAFU" width="300" height="300" hspace="20"/>
+<img src="https://chidubemiddianozie.com/images/single_street.png" width="300" height="300" hspace="20"/><img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/first_buffer.png?token=AD5IB4B3JOZPCOQ7JPJLU3S6GRAFU" width="300" height="300" hspace="20"/>
 
 
 <img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/second_buffer.png?token=AD5IB4B6KLERDWYIJWS4BUK6GRAH4" width="300" height="300" hspace="20"/><img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/third_buffer.png?token=AD5IB4EONVA2GF7MQ3JHCBC6GRAJM" width="300" height="300" hspace="20"/>
