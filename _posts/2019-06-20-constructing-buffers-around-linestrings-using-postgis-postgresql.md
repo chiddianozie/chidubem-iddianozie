@@ -13,7 +13,7 @@ tags:
 TL;DR: We will learn how to construct multiple non-overlapping buffers around `linestring` objects using `PostGIS` in `PostgreSQL`.
 
 <!-- ![single street](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/single_street.png?token=AD5IB4F2Q2IH7DYTBACZGTC6BUNZQ) -->
-<img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/single_street.png?token=AD5IB4EA2HXB5IDBED2D3RK6GQ3VA" width="300" height="300" hspace="20"/><img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/all_buffers.png?token=AD5IB4CROBVU6X56PH74H326GRABY" width="300" height="300" hspace="20"/>
+<img src="https://chidubemiddianozie.com/images/single_street.png" width="300" height="300" hspace="20"/><img src="https://chidubemiddianozie.com/images/all_buffers.png" width="300" height="300" hspace="20"/>
 
 <!-- <div style="width:300; font-size:80%; text-align:center;"><img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/single_street.png?token=AD5IB4F2Q2IH7DYTBACZGTC6BUNZQ" alt="alternate text" width="300" height="300" style="padding-bottom:0.5em;" 
 />Linestring</div> -->
@@ -155,10 +155,10 @@ Now, we show a visualization of the buffers:
 <img src="https://chidubemiddianozie.com/images/single_street.png" width="300" height="300" hspace="20"/><img src="https://chidubemiddianozie.com/images/first_buffer.png" width="300" height="300" hspace="20"/>
 
 
-<img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/second_buffer.png?token=AD5IB4B6KLERDWYIJWS4BUK6GRAH4" width="300" height="300" hspace="20"/><img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/third_buffer.png?token=AD5IB4EONVA2GF7MQ3JHCBC6GRAJM" width="300" height="300" hspace="20"/>
+<img src="https://chidubemiddianozie.com/images/second_buffer.png" width="300" height="300" hspace="20"/><img src="https://chidubemiddianozie.com/images/third_buffer.png" width="300" height="300" hspace="20"/>
 
 And, all buffers superimposed on the linestring. 
-<img src="https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/all_buffers.png?token=AD5IB4CROBVU6X56PH74H326GRABY" width="400" height="400" hspace="150"/>
+<img src="https://chidubemiddianozie.com/images/all_buffers.png" width="400" height="400" hspace="150"/>
 
 <!-- ![single street](https://raw.githubusercontent.com/sirchidi/chidubem-iddianozie/master/images/single_street.png?token=AD5IB4F2Q2IH7DYTBACZGTC6BUNZQ)
 
