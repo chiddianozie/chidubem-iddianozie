@@ -52,10 +52,10 @@ google_site_verification : "_0aT156gkypaDMCg3Nd6E4gAraa7RkClsWIZyLYOAwo"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification : "7281b0eff08e673c"
-
+# &twitter "sirchidi_"
 # Social Sharing
 twitter:
-  username               : &twitter "sirchidi_"
+  username               : 
 facebook:
   username               :
   app_id                 :
