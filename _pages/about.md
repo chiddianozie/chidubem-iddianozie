@@ -8,12 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Third year PhD student in Computer Science at the University College Dublin. Research interests include Semantic Inference, Transfer Learning and ML on Graphs.
+Chidubem Iddianozie is a third year PhD student in Computer Science at the University College Dublin. My research area is in the application of Machine Learning and Deep Learning techniques to solve challenging spatial problems. Research interests include Semantic Inference, Transfer Learning, ML on Graphs.
 
 
 # Recent News
-- February 2019: Giving a talk titled "Discriminative Machine Learning models for semantifying IoT Data" at PyCon Limerick, Limerick, Ireland.
-- February 2019: Giving a Git and GitHub workshop at the Why R? Conference, Limerick, Ireland.
+- February 2020: Our paper titled "Exploring budgeted learning for data-driven semantic inference via urban functions" is accepte for publication in IEEE Access Journal.
+- February 2020: Giving a talk titled "Discriminative Machine Learning models for semantifying IoT Data" at PyCon Limerick, Limerick, Ireland.
+- February 2020: Giving a Git and GitHub workshop at the Why R? Conference, Limerick, Ireland.
 - December 2019: Poster Presentation at NeurIPS for paper titled "Robust representations for transfer learning on heterogeneous spatial graphs", Vancouver, Canada.
 - November 2019: Giving a talk titled "Confirmation Biases and Online Echo chambers: Why technologists should not stop talking about them" at GitHub Education Day, San Francisco, USA.
 - September 2019: ECML-PKDD ML Summer School, Wurzburg, Germany.
