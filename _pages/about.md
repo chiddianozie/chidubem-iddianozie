@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Chidubem Iddianozie is a third year PhD student in Computer Science at the University College Dublin. My research area is in the application of Machine Learning and Deep Learning techniques to solve challenging spatial problems. Research interests include Semantic Inference, Transfer Learning, ML on Graphs.
+Hi there, I am a third year Computer Science PhD student at the University College Dublin. My research interests are in the application of Machine Learning and Deep Learning techniques to solve challenging spatial problems, including Semantic Inference, Transfer Learning, ML on Graphs.
 
 
 # Recent News
