@@ -4,9 +4,9 @@ title: "Contact"
 excerpt: "Contact me"
 author_profile: true
 ---
-Contact information is below, including email and social web services.  
-* E-mail: mail [at] chidubemiddianozie.com, chidubem.iddianozie [at] ucdconnect.ie
-* Twitter: [sirchidi_](http://twitter.com/sirchidi_)
+My contact details
+* E-mail: chidubem.iddianozie [at] ucdconnect.ie
+<!-- * Twitter: [sirchidi_](http://twitter.com/sirchidi_) -->
 <!-- * Academia.edu: [RStuartGeiger](http://georgetown.academia.edu/RStuartGeiger) -->
 <!-- * Flickr: [staeiou](http://www.flickr.com/photos/Staeiou) -->
 <!-- * Google Scholar: [author:geiger-r-stuart](http://scholar.google.com/citations?user=0AvWi3wAAAAJ&hl=en) -->
