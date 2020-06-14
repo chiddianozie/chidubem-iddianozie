@@ -12,7 +12,7 @@ Chidubem Iddianozie is a third year PhD student in Computer Science at the Unive
 
 
 # Recent News
-- February 2020: Our paper titled "Exploring budgeted learning for data-driven semantic inference via urban functions" is accepte for publication in IEEE Access Journal.
+- February 2020: Our paper titled "Exploring budgeted learning for data-driven semantic inference via urban functions" is accepted for publication in the IEEE Access Journal.
 - February 2020: Giving a talk titled "Discriminative Machine Learning models for semantifying IoT Data" at PyCon Limerick, Limerick, Ireland.
 - February 2020: Giving a Git and GitHub workshop at the Why R? Conference, Limerick, Ireland.
 - December 2019: Poster Presentation at NeurIPS for paper titled "Robust representations for transfer learning on heterogeneous spatial graphs", Vancouver, Canada.
