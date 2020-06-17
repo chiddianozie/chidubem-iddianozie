@@ -12,7 +12,7 @@ Hi there, I am a third year Computer Science PhD student at the University Colle
 
 
 # Recent News
-- March 2020: Serving as a PC member for ECML-PKDD 2020.
+- March 2020: Serving as a PC member for ECML-PKDD'20.
 - February 2020: Our paper titled "Exploring budgeted learning for data-driven semantic inference via urban functions" is accepted for publication in the IEEE Access Journal (Impact Factor: 4.098).
 - February 2020: Giving a talk titled "Discriminative Machine Learning models for semantifying IoT Data" at PyCon Limerick, Limerick, Ireland.
 - February 2020: Giving a Git and GitHub workshop at the Why R? Conference, Limerick, Ireland.
@@ -24,3 +24,4 @@ Hi there, I am a third year Computer Science PhD student at the University Colle
 - April 2019: Presenting our paper titled "A Transfer Learning paradigm for spatial networks" at SAC 2019 in Limassol, Cyprus.
 - December 2018: Attending the NeurIPS Conference in Montreal, Canada.
 - September 2018: Presenting at the Doctoral Forum, ECML-PKDD, Dublin.
+<!-- - January 2018: Started my Doctorate Degree at the University College Dublin. -->
