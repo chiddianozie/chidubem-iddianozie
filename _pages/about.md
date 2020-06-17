@@ -13,7 +13,7 @@ Hi there, I am a third year Computer Science PhD student at the University Colle
 
 # Recent News
 - March 2020: Serving as a PC member for ECML-PKDD 2020.
-- February 2020: Our paper titled "Exploring budgeted learning for data-driven semantic inference via urban functions" is accepted for publication in the IEEE Access Journal.
+- February 2020: Our paper titled "Exploring budgeted learning for data-driven semantic inference via urban functions" is accepted for publication in the IEEE Access Journal (Impact Factor: 4.098).
 - February 2020: Giving a talk titled "Discriminative Machine Learning models for semantifying IoT Data" at PyCon Limerick, Limerick, Ireland.
 - February 2020: Giving a Git and GitHub workshop at the Why R? Conference, Limerick, Ireland.
 - December 2019: Poster Presentation at NeurIPS for paper titled "Robust representations for transfer learning on heterogeneous spatial graphs", Vancouver, Canada.
