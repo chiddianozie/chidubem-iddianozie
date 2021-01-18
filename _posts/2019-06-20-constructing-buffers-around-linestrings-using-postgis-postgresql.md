@@ -192,4 +192,4 @@ TO '/path/to/file/streetSample_with_buffers.csv' DELIMITER ',' CSV HEADER;
 
 ## Final words
 
-I hope this helps someone, the `SQL` code for this post is available [here](https://github.com/sirchidi/concentricBufferConstruction). If you have any queries, please leave a comment below or open an issue on in the [code repo](https://github.com/sirchidi/concentricBufferConstruction). Thanks!
+I hope this helps someone, the `SQL` queries for this post is available [here](https://github.com/chiddianozie/concentricBufferConstruction). If you have any queries, please leave a comment below or open an issue in the [code repo](https://github.com/chiddianozie/concentricBufferConstruction). Thanks!
