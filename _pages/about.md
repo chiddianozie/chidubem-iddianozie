@@ -8,11 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-Hi there, I am a third year Computer Science PhD student at the University College Dublin. My research interests lie in solving challenging spatio-temporal problems, using Machine and Deep Learning techniques such as Semantic Inference, Transfer Learning, Graph Neural Networks.
+Hi there, I am a final year Computer Science PhD student at the University College Dublin. My research interests lie in solving challenging spatio-temporal problems, using Machine and Deep Learning techniques such as Semantic Inference, Transfer Learning, Graph Neural Networks.
 
 
 # Recent News
-- January 2020: debugging
 - September 2020: Giving a virtal talk titled "On the Prospects and Challenges of Machine Learning for Street Networks" at the UCL AI Seminar Series.
 - March 2020: Serving as a Program Committee member for ECML-PKDD'20.
 - February 2020: Our paper titled "Exploring budgeted learning for data-driven semantic inference via urban functions" is accepted for publication in the IEEE Access Journal (Impact Factor: 4.098).
