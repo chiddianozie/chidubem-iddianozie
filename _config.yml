@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Chidubem Iddianozie"
   avatar           : "web_profile.png"
-  bio              : "#DataScience #AI #ML #Python #Graphs"
+  bio              : # "#DataScience #AI #ML #Python #Graphs"
   location         : "Dublin, Ireland"
   employer         :
   googlescholar    : #"http://yourfullgooglescholarurl.com"
