@@ -75,12 +75,12 @@ analytics:
   google:
     tracking_id          : "UA-122260579-1"
 
-
+ # "#DataScience #AI #ML #Python #Graphs"
 # Site Author
 author:
   name             : "Chidubem Iddianozie"
   avatar           : "web_profile.png"
-  bio              : # "#DataScience #AI #ML #Python #Graphs"
+  bio              : CS PhD Student, UCD
   location         : "Dublin, Ireland"
   employer         :
   googlescholar    : #"http://yourfullgooglescholarurl.com"

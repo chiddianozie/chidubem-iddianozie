@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi there, I am a final year Computer Science PhD student at the University College Dublin. My research interests lie in solving challenging spatio-temporal problems, using Machine and Deep Learning techniques such as Semantic Inference, Transfer Learning, Graph Neural Networks.
+I am a final year Computer Science PhD student at the University College Dublin. My research interests lie in solving challenging spatio-temporal problems, using Machine and Deep Learning techniques such as Semantic Inference, Transfer Learning, Graph Neural Networks.
 
 
 # Recent News
